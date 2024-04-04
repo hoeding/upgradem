@@ -1,5 +1,13 @@
 
 local tile_size = { x = 32  , y = 0 }
+
+
+
+
+
+
+
+
 script.on_event(defines.events.on_built_entity,
   function(event)
 
