@@ -2,12 +2,6 @@
 local tile_size = { x = 32  , y = 0 }
 
 
-
-
-
-
-
-
 script.on_event(defines.events.on_built_entity,
   function(event)
 
@@ -31,10 +25,9 @@ script.on_event(defines.events.on_built_entity,
 
 script.on_event(defines.events.on_pre_player_mined_item,
   function(event)
-
+    game.print("hello mined event")
   end  
 )
-
 
 
 
